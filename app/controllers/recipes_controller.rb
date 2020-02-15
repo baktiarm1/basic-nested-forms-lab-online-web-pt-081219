@@ -11,7 +11,7 @@ class RecipesController < ApplicationController
     @recipe = Recipe.new
     @recipe = ingredients.build(:name: 'water')
       @recipe = ingredients.build(:name: 'milk')
-    
+
 
   end
 
