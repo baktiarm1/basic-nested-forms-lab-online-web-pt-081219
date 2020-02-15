@@ -13,6 +13,8 @@ class RecipesController < ApplicationController
   end
 
   def create
+    Recipe.creat(recipe_params)
+    redirect_to recipes_path
   end
 
 
